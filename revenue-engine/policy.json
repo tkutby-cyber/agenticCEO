@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "objective": "maximize_real_net_profit",
+  "constraints": {
+    "budget_brl": 1000,
+    "default_spend_brl": 0,
+    "require_measurable_test_for_spend": true,
+    "prohibited": ["spam","fake_engagement","fake_reviews","impersonation","deceptive_synthetic_identity","prohibited_adult_content","unlawful_scraping"]
+  },
+  "decision": {
+    "kill_if": ["no_measurable_signal_after_defined_test","platform_or_legal_risk_unacceptable"],
+    "scale_if": ["real_payment_received","repeatable_positive_unit_economics"],
+    "mutate_if": ["attention_without_conversion","conversion_without_positive_margin"]
+  }
+}
