@@ -1,6 +1,6 @@
 {
   "campaign_id": "synthetic-media-001",
-  "status": "ready_for_production",
+  "status": "batch_complete_18",
   "scripts": [
     {
       "variant": "older-woman-life",
@@ -37,6 +37,78 @@
       "hook": "Seu cérebro não percebe o tempo como um relógio.",
       "body": "Rotina cria menos marcos distintos na memória. Novidade cria mais. É uma das razões pelas quais períodos repetitivos podem parecer curtos quando lembrados depois.",
       "cta": "Salva como desculpa científica para fazer algo diferente esta semana."
+    },
+    {
+      "variant": "older-woman-life",
+      "hook": "Quem gosta de você não precisa concordar com tudo. Precisa conseguir conversar sem te punir.",
+      "body": "Maturidade não é ausência de conflito. É poder discordar sem transformar silêncio, ameaça ou desprezo em arma.",
+      "cta": "Salva para lembrar na próxima discussão."
+    },
+    {
+      "variant": "older-woman-life",
+      "hook": "Você não está com saudade da pessoa. Às vezes está com saudade de quem você era perto dela.",
+      "body": "É por isso que voltar nem sempre devolve aquilo que você perdeu. Algumas versões nossas pertencem a uma época, não a uma relação.",
+      "cta": "Essa doeu ou libertou?"
+    },
+    {
+      "variant": "older-woman-life",
+      "hook": "Depois dos 50 eu parei de tentar ser inesquecível.",
+      "body": "É muito mais interessante ser alguém com quem as pessoas conseguem respirar. Presença vale mais que performance.",
+      "cta": "Manda para alguém que te dá essa sensação."
+    },
+    {
+      "variant": "older-woman-life",
+      "hook": "Não confunda alguém difícil de conquistar com alguém valioso.",
+      "body": "Escassez mexe com a cabeça. Às vezes você chama de química aquilo que é só incerteza mantendo sua atenção presa.",
+      "cta": "Salva antes de mandar aquela mensagem."
+    },
+    {
+      "variant": "practical-wisdom",
+      "hook": "Antes de dizer sim, experimente trocar uma palavra.",
+      "body": "Em vez de perguntar 'eu consigo fazer?', pergunte 'o que eu deixo de fazer se aceitar?'. Toda escolha tem um preço escondido.",
+      "cta": "Qual sim está custando caro demais?"
+    },
+    {
+      "variant": "practical-wisdom",
+      "hook": "Quando duas opções parecem ruins, talvez você esteja fazendo a pergunta errada.",
+      "body": "Não pergunte apenas qual opção escolher. Pergunte qual restrição poderia ser removida para criar uma terceira opção.",
+      "cta": "Salva para sua próxima decisão impossível."
+    },
+    {
+      "variant": "practical-wisdom",
+      "hook": "Quer descobrir o que realmente importa? Imagine que ninguém vai saber da sua escolha.",
+      "body": "Sem aplauso, status ou explicação para dar, algumas decisões ficam surpreendentemente claras.",
+      "cta": "Não precisa responder aqui. Só pensa."
+    },
+    {
+      "variant": "practical-wisdom",
+      "hook": "Um problema repetido merece uma regra, não mais força de vontade.",
+      "body": "Se toda semana você negocia consigo a mesma coisa, transforme a decisão em padrão. Guarde energia para o que realmente muda.",
+      "cta": "Qual decisão você deveria parar de repetir?"
+    },
+    {
+      "variant": "curiosity-explainer",
+      "hook": "Por que uma viagem parece longa no começo e curta quando você volta pelo mesmo caminho?",
+      "body": "Na ida, o cérebro está construindo um mapa e lidando com mais novidade. Na volta, parte do percurso já é previsível. Expectativa e familiaridade mudam nossa percepção do tempo.",
+      "cta": "Você também sente isso?"
+    },
+    {
+      "variant": "curiosity-explainer",
+      "hook": "Por que é tão difícil lembrar um nome dois segundos depois de ouvir?",
+      "body": "Muitas vezes você não esqueceu. Você nem chegou a codificar direito: enquanto a pessoa falava, sua atenção já estava preparando o que dizer em seguida.",
+      "cta": "Teste hoje: repita mentalmente o nome assim que ouvir."
+    },
+    {
+      "variant": "curiosity-explainer",
+      "hook": "Existe um motivo para ideias aparecerem no banho.",
+      "body": "Tarefas automáticas ocupam pouco controle consciente e deixam a mente vagar. Essa combinação pode facilitar conexões entre ideias que estavam separadas.",
+      "cta": "Onde aparecem suas melhores ideias?"
+    },
+    {
+      "variant": "curiosity-explainer",
+      "hook": "Por que 10 minutos esperando parecem maiores que 10 minutos conversando?",
+      "body": "Atenção muda a experiência do tempo. Quando você monitora a passagem dos minutos, percebe mais o intervalo. Quando está envolvido em algo, monitora menos.",
+      "cta": "Agora tente não olhar o relógio."
     }
   ]
 }
