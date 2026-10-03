@@ -1,6 +1,6 @@
 {
   "mission": "Autonomous Revenue Engine",
-  "updated_at": "2026-10-03T08:20:00-03:00",
+  "updated_at": "2026-10-03T08:40:00-03:00",
   "budget_brl": {
     "authorized": 1000,
     "spent": 0,
@@ -18,12 +18,23 @@
       "type": "github_runtime_state",
       "status": "created",
       "path": "revenue-engine/state.json"
+    },
+    {
+      "type": "campaign_spec",
+      "status": "created",
+      "path": "revenue-engine/campaigns/synthetic-media-001.json"
+    },
+    {
+      "type": "production_scripts",
+      "status": "created",
+      "path": "revenue-engine/campaigns/synthetic-media-001-scripts.json",
+      "count": 6
     }
   ],
   "experiments": [
     {
       "id": "synthetic-media-001",
-      "status": "design/build",
+      "status": "scripts_batch_ready",
       "hypothesis": "A transparent synthetic creator can acquire attention and route it to a monetizable digital offer with near-zero marginal production cost.",
       "spend_brl": 0
     }
@@ -43,8 +54,9 @@
     }
   ],
   "next_actions": [
-    "Build persistent experiment queue and decision policy.",
-    "Create first monetizable asset/offer before buying traffic.",
-    "Connect distribution only when an executable content batch exists."
+    "Expand each archetype to 6 production-ready scripts (18 total).",
+    "Build media production manifest with consistent character bible and shot instructions.",
+    "Then request Higgsfield API only if programmatic video generation is the cheapest executable path.",
+    "Connect @iaexploradoresbr publishing only when first production batch is ready."
   ]
 }
