@@ -1,0 +1,42 @@
+{
+  "campaign_id": "synthetic-media-001",
+  "status": "ready_for_production",
+  "scripts": [
+    {
+      "variant": "older-woman-life",
+      "hook": "Se alguém só te procura quando precisa de você, não é saudade. É logística.",
+      "body": "Demorei anos para entender uma coisa simples: carinho aparece também quando não há nada para pedir. Observe quem lembra de você nos dias comuns.",
+      "cta": "Salva isso para o dia em que você estiver inventando desculpa por alguém."
+    },
+    {
+      "variant": "older-woman-life",
+      "hook": "Tem uma idade em que paz começa a parecer mais bonita que química.",
+      "body": "Não porque você desistiu do amor. Porque finalmente percebeu que ansiedade e paixão não são sinônimos.",
+      "cta": "Manda para alguém que já aprendeu isso."
+    },
+    {
+      "variant": "practical-wisdom",
+      "hook": "Você não precisa decidir sua vida inteira hoje.",
+      "body": "A maioria das decisões difíceis fica menor quando você pergunta: qual é a próxima decisão reversível que me dá mais informação?",
+      "cta": "Salva para a próxima vez que tudo parecer definitivo."
+    },
+    {
+      "variant": "practical-wisdom",
+      "hook": "Uma pergunta pode economizar meses de insistência.",
+      "body": "Se eu não tivesse investido tanto nisso, eu escolheria começar hoje? O passado explica seu apego. Não precisa comandar sua próxima decisão.",
+      "cta": "Qual decisão essa pergunta muda para você?"
+    },
+    {
+      "variant": "curiosity-explainer",
+      "hook": "Por que uma música de 20 anos atrás consegue devolver um lugar inteiro em segundos?",
+      "body": "Memórias autobiográficas e emoção usam pistas sensoriais muito fortes. Uma música não traz só a melodia: ela pode reativar contexto, pessoas e sensação de época.",
+      "cta": "Qual música faz isso com você?"
+    },
+    {
+      "variant": "curiosity-explainer",
+      "hook": "Seu cérebro não percebe o tempo como um relógio.",
+      "body": "Rotina cria menos marcos distintos na memória. Novidade cria mais. É uma das razões pelas quais períodos repetitivos podem parecer curtos quando lembrados depois.",
+      "cta": "Salva como desculpa científica para fazer algo diferente esta semana."
+    }
+  ]
+}
