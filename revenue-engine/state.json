@@ -1,0 +1,50 @@
+{
+  "mission": "Autonomous Revenue Engine",
+  "updated_at": "2026-10-03T08:20:00-03:00",
+  "budget_brl": {
+    "authorized": 1000,
+    "spent": 0,
+    "committed": 0,
+    "remaining": 1000
+  },
+  "ledger": {
+    "third_party_revenue_received_brl": 0,
+    "incremental_spend_brl": 0,
+    "net_profit_brl": 0
+  },
+  "operating_rule": "Each supervisor run must attempt a state-changing action. Research alone is not progress.",
+  "assets": [
+    {
+      "type": "github_runtime_state",
+      "status": "created",
+      "path": "revenue-engine/state.json"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "synthetic-media-001",
+      "status": "design/build",
+      "hypothesis": "A transparent synthetic creator can acquire attention and route it to a monetizable digital offer with near-zero marginal production cost.",
+      "spend_brl": 0
+    }
+  ],
+  "blockers": [
+    {
+      "id": "social-distribution",
+      "scope": "branch",
+      "status": "not_yet_connected",
+      "detail": "Official publishing account/API not connected."
+    },
+    {
+      "id": "higgsfield-api",
+      "scope": "branch",
+      "status": "defer",
+      "detail": "Do not fund until a media test is ready."
+    }
+  ],
+  "next_actions": [
+    "Build persistent experiment queue and decision policy.",
+    "Create first monetizable asset/offer before buying traffic.",
+    "Connect distribution only when an executable content batch exists."
+  ]
+}
