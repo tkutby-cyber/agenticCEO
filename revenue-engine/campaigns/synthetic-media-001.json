@@ -1,0 +1,47 @@
+{
+  "id": "synthetic-media-001",
+  "status": "campaign_defined",
+  "channel": {
+    "platform": "Instagram",
+    "handle": "@iaexploradoresbr",
+    "account_exists": true,
+    "publishing_connection": false
+  },
+  "objective": "Find a synthetic creator/content format capable of generating measurable organic attention, then attach monetization only after signal.",
+  "phase_1": {
+    "spend_cap_brl": 0,
+    "variants": [
+      {
+        "id": "older-woman-life",
+        "archetype": "Older Brazilian woman with sharp, warm observations about relationships, work and life",
+        "format": "direct-to-camera 15-30s",
+        "disclosure": "synthetic character / AI"
+      },
+      {
+        "id": "practical-wisdom",
+        "archetype": "Fictional reflective character translating philosophy into everyday decisions",
+        "format": "direct-to-camera 15-30s",
+        "disclosure": "synthetic character / AI"
+      },
+      {
+        "id": "curiosity-explainer",
+        "archetype": "Fictional explainer delivering surprising useful facts with narrative hooks",
+        "format": "direct-to-camera 15-30s",
+        "disclosure": "synthetic character / AI"
+      }
+    ],
+    "batch_per_variant": 6,
+    "metrics": [
+      "3s_hold",
+      "avg_watch_time",
+      "completion_rate",
+      "shares",
+      "saves",
+      "profile_visits",
+      "follows"
+    ],
+    "selection_rule": "After comparable organic distribution, retain top variant on watch/completion plus saves/shares; kill variants with no meaningful signal.",
+    "monetization_gate": "Do not build paid media or a product around a character until distribution signal exists."
+  },
+  "next_state": "scripts_batch"
+}
