@@ -1,0 +1,81 @@
+{
+  "campaign_id": "synthetic-media-001",
+  "status": "production_manifest_ready",
+  "format": {
+    "aspect_ratio": "9:16",
+    "duration_seconds": "15-30",
+    "resolution": "1080x1920",
+    "captions": "burned-in Portuguese",
+    "disclosure": "IA / personagem virtual in bio and appropriate platform label"
+  },
+  "production_rules": {
+    "camera": "phone-native direct-to-camera, subtle handheld or locked selfie framing",
+    "editing": "one visual hook in first second; no generic AI B-roll unless it adds meaning",
+    "audio": "natural Brazilian Portuguese voice; conversational pacing",
+    "consistency": "each variant keeps one stable face, voice, age range, wardrobe palette and setting family"
+  },
+  "variants": [
+    {
+      "id": "older-woman-life",
+      "character_bible": {
+        "working_name": "Lia",
+        "age_visual": "58-65",
+        "persona": "warm, witty, self-possessed Brazilian woman; lived experience without pretending to be a real person",
+        "look": "natural silver-brown hair, understated clothes, warm home environments",
+        "voice": "Brazilian Portuguese, mature, intimate, slightly amused"
+      },
+      "shots": [
+        "close selfie at kitchen table",
+        "medium shot on sofa",
+        "walking slowly in apartment balcony"
+      ]
+    },
+    {
+      "id": "practical-wisdom",
+      "character_bible": {
+        "working_name": "Caio",
+        "age_visual": "38-45",
+        "persona": "calm fictional practical thinker; makes difficult decisions simpler without guru claims",
+        "look": "casual neutral clothes, contemporary study/cafe",
+        "voice": "Brazilian Portuguese, measured, concise"
+      },
+      "shots": [
+        "direct camera at desk",
+        "walking outdoors",
+        "coffee shop close-up"
+      ]
+    },
+    {
+      "id": "curiosity-explainer",
+      "character_bible": {
+        "working_name": "Nina",
+        "age_visual": "26-34",
+        "persona": "curious fictional explainer; energetic without clickbait shouting",
+        "look": "casual modern wardrobe, varied everyday environments",
+        "voice": "Brazilian Portuguese, quick, curious"
+      },
+      "shots": [
+        "close selfie",
+        "standing explainer",
+        "contextual everyday location"
+      ]
+    }
+  ],
+  "experiment_design": {
+    "initial_posts": 18,
+    "posts_per_variant": 6,
+    "paid_media_brl": 0,
+    "decision_window": "after comparable organic impressions; do not declare winner on raw views alone",
+    "primary_metrics": [
+      "3s_hold",
+      "completion_rate",
+      "saves_per_reach",
+      "shares_per_reach"
+    ],
+    "secondary_metrics": [
+      "profile_visits",
+      "follows"
+    ],
+    "next_gate": "Only winning variant proceeds to 12-post mutation batch and first monetization test."
+  }
+}
