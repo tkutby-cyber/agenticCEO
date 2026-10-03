@@ -1,0 +1,1 @@
+{"name":"lia-ptbr-voice","private":true,"type":"module","scripts":{"generate":"node generate.mjs"},"dependencies":{"edge-tts-universal":"^1.4.0"}}
